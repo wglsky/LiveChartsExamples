@@ -33,7 +33,8 @@ namespace LiveChartExamples
             {
                 new LineSeries
                 {
-                    Values = new ChartValues<double>{3,6,4,5}
+                    Values = new ChartValues<double>{3,6,4,5},
+                    Title = "Calculated Density"
                 },
                 new LineSeries
                 {
