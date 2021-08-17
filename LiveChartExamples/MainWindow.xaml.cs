@@ -33,12 +33,17 @@ namespace LiveChartExamples
             {
                 new LineSeries
                 {
-                    Values = new ChartValues<double>{3,6,4,5},
+                    Values = new ChartValues<double>{3,6,4,5, 8},
                     Title = "Calculated Density"
                 },
-                new LineSeries
+                new ScatterSeries
                 {
-                    Values = new ChartValues<double>{7,2,10,4}
+                    Values = new ChartValues<double>{4,5,6,4},
+                    Title = "Experimental Density",
+                    StrokeThickness = 2,
+                    Fill = Brushes.Transparent,
+                    Stroke = Brushes.Black
+                    //PointForeground = Brushes.Black
                 }
             };
 
