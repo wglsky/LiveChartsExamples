@@ -28,6 +28,18 @@ namespace LiveChartExamples
         public MainWindow()
         {
             InitializeComponent();
+
+            SeriesCollection_Density = new SeriesCollection
+            {
+                new LineSeries
+                {
+                    Values = new ChartValues<double>{3,6,4,5}
+                },
+                new LineSeries
+                {
+                    Values = new ChartValues<double>{7,2,10,4}
+                }
+            };
         }
     }
 }
