@@ -40,6 +40,8 @@ namespace LiveChartExamples
                     Values = new ChartValues<double>{7,2,10,4}
                 }
             };
+
+            DataContext = this;
         }
     }
 }
