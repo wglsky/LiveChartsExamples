@@ -23,6 +23,8 @@ namespace LiveChartExamples
     /// </summary>
     public partial class MainWindow : Window
     {
+        public SeriesCollection SeriesCollection_Density { get; set; }
+
         public MainWindow()
         {
             InitializeComponent();
